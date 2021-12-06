@@ -1,0 +1,31 @@
+body{
+    background-image: url(../src/img/sisi.jpg);
+    
+}
+.h1{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+.form-control{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+input{
+    border-radius: 5px;
+    outline: black;
+}
+::-webkit-input-placeholder { /* Chrome */
+    color: white;
+  }
